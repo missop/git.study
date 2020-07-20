@@ -12,6 +12,8 @@ git revert 撤回之后将记录保留，并生成新的提交
 
 git fetch下载上游仓库时使用
 
+git con
+
 ### alias
 git dog => git config --global alias.adog "log --all --decorate --oneline --graph"  显示提交分支图
 
