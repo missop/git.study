@@ -101,3 +101,14 @@
 //   }
 //   return res
 // }
+module.exports={
+  
+}
+
+const lazy = fac=>{
+  const withFac = window.memory(fac)
+  const f = /**@type {any} **/ ((...args)=>{
+    return withFac()(...args)
+  })
+  return /** @type {T} **/ (f)
+}
